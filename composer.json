@@ -1,0 +1,42 @@
+{
+    "name": "topshelfcraft/conditions",
+    "description": "A fieldtype for editing and storing Condition Rules.",
+    "type": "craft-plugin",
+    "version": "4.0.0-beta.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "conditions",
+        "condition builder",
+        "condition rules",
+        "element condition",
+        "filter",
+        "rules"
+    ],
+    "support": {
+        "issues": "https://github.com/TopShelfCraft/Conditions/issues"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Top Shelf Craft (Michael Rog)",
+            "homepage": "https://topshelfcraft.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^4.4",
+        "topshelfcraft/base": "^4.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TopShelfCraft\\Conditions\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Conditions",
+        "handle": "conditions",
+        "class": "TopShelfCraft\\Conditions\\Conditions"
+    }
+}
