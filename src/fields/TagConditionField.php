@@ -7,19 +7,7 @@ use craft\elements\Tag;
 class TagConditionField extends ElementConditionField
 {
 
-	public string $conditionType = TagCondition::class;
-	public ?string $elementType = Tag::class;
-
-	/*
-	 * Static
-	 */
-
-	/**
-	 * @inheritdoc
-	 */
-	public static function displayName(): string
-	{
-		return "Tag Condition";
-	}
+	protected static string $conditionType = TagCondition::class;
+	protected static string $elementType = Tag::class;
 
 }

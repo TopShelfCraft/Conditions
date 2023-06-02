@@ -7,19 +7,7 @@ use craft\elements\Entry;
 class EntryConditionField extends ElementConditionField
 {
 
-	public string $conditionType = EntryCondition::class;
-	public ?string $elementType = Entry::class;
-
-	/*
-	 * Static
-	 */
-
-	/**
-	 * @inheritdoc
-	 */
-	public static function displayName(): string
-	{
-		return "Entry Condition";
-	}
+	protected static string $conditionType = EntryCondition::class;
+	protected static string $elementType = Entry::class;
 
 }

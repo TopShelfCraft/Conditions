@@ -7,19 +7,7 @@ use craft\elements\conditions\categories\CategoryCondition;
 class CategoryConditionField extends ElementConditionField
 {
 
-	public string $conditionType = CategoryCondition::class;
-	public ?string $elementType = Category::class;
-
-	/*
-	 * Static
-	 */
-
-	/**
-	 * @inheritdoc
-	 */
-	public static function displayName(): string
-	{
-		return "Category Condition";
-	}
+	protected static string $conditionType = CategoryCondition::class;
+	protected static string $elementType = Category::class;
 
 }

@@ -1,6 +1,6 @@
 # Conditions
 
-_A fieldtype for editing and storing Condition Rules._  
+_Craft CMS field types for editing and storing Condition Rules_  
 
 **A [Top Shelf Craft](https://topshelfcraft.com) creation**  
 [Michael Rog](https://michaelrog.com), Proprietor
@@ -11,7 +11,7 @@ _A fieldtype for editing and storing Condition Rules._
 
 ## TL;DR.
 
-`// TODO`
+The Conditions field types enable you to create "Condition Builder" fields, for editing and storing Condition Rules as field data, enabling a wide variety of content curation use cases.
 
 
 ## Installation

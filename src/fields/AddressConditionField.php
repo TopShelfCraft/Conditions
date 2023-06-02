@@ -7,19 +7,7 @@ use craft\elements\conditions\addresses\AddressCondition;
 class AddressConditionField extends ElementConditionField
 {
 
-	public string $conditionType = AddressCondition::class;
-	public ?string $elementType = Address::class;
-
-	/*
-	 * Static
-	 */
-
-	/**
-	 * @inheritdoc
-	 */
-	public static function displayName(): string
-	{
-		return "Address Condition";
-	}
+	protected static string $conditionType = AddressCondition::class;
+	protected static string $elementType = Address::class;
 
 }
